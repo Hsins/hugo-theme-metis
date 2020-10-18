@@ -1,0 +1,24 @@
+/*
+  This file is used to contain all SCSS imports. There are two parts in this file:
+    1. Import settings from config.toml
+    2. Import all other SCSS files.
+*/
+
+
+@charset 'UTF-8';
+
+/*
+  Settings from config.toml
+*/
+
+/*
+  All other SCSS files.
+*/
+
+@import 'vendors/__vendors-dir';        // 1. Vendors
+@import 'abstracts/__abstracts-dir';    // 2. Configuration and helpers
+@import 'base/__base-dir';              // 3. Base stuff
+@import 'components/__components-dir';  // 4. Components
+@import 'layout/__layout-dir';          // 5. Layout-related sections
+@import 'pages/__page-dir';             // 6. Page-specific styles
+@import 'themes/__theme-dir';           // 7. Themes
